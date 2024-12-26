@@ -192,7 +192,7 @@ app.post('/update-notation', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Bienvenue sur le serveur de l'application Twine !');
+    res.send('Bienvenue sur le serveur de l\'application Twine !');
 });
 
 
